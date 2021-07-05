@@ -13,7 +13,7 @@ body{
 }
 
 header{
-	background: darkred;
+	background: #D62246;
 	color: white;
 	padding-top:30px;
 	min-height: 70px;
@@ -51,7 +51,7 @@ header nav{
 }
 
 header .highlight, header .current{
-	color: #f6b93b;
+	color: #D4F4DD;
 	font-weight: bold;
 }
 
@@ -111,25 +111,25 @@ header a:hover{
 }
 
 #boxes .box h3{
-	color: darkred;
+	color: #D62246;
 	font-weight: bold;
 	font-size: xx-large;
 }
 
 .applybutton {
-	color: darkred !important;
+	color: #D4F4DD !important;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: #f6b93b;
+	background: #0E7C7B;
 	padding: 20px;
-	border: 4px solid darkred !important;
+	border: 4px solid #D4F4DD !important;
 	display: inline-block;
 	transition: all 0.4s ease 0s;
 }
 
 .applybutton:hover {
 	color: #ffffff !important;
-	background: darkred;
+	background: #D62246;
 	border-color: white !important;
 	transition: all 0.4s ease 0s;
 }
@@ -138,17 +138,27 @@ footer{
 	padding:20px;
 	margin-top:5px;
 	color:black;
-	background-color: #f6b93b;
+	background-color: #D4F4DD;
 	text-align: center;
 }
 
 #apply{
 	padding:15px;
-	background:darkred;
+	background:#0E7C7B;
 	text-align: center;
 	color: white;
 }
 
 #apply h1{
 	font-size: xx-large;
+}
+
+#meettheteam{
+	text-align: center;
+	margin: 20px 70px 0px 70px;
+}
+
+#meettheteam h1{
+	font-weight: 900;
+	font-size: 50px;
 }
